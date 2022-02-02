@@ -110,6 +110,7 @@ header {
     color: #fff;
     margin-top: 49px;
     font-size: 15px;
+    border-radius: 0 0 5px 5px;
 }
 .feedback input {
     font-size: 14px;
@@ -117,6 +118,10 @@ header {
 .feedback {
     background-color: white;
     margin-top: 140px;
+    border-radius: 5px;
+}
+.feedback p {
+    border-radius: 5px 5px 0 0;
 }
 .AXIT img {
     height: 60px;
