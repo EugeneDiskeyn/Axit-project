@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: #9a9a9a;
 }
 nav {
     background-color: black;
@@ -12,6 +13,8 @@ nav ul {
 nav ul li {
     display: inline;
     padding-left: 57px;
+    font-size: 14px;
+    font-weight: 600;
 }
 nav .container {
     width: 1120px;
@@ -34,7 +37,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     width: 470px;
-    margin-top: 100px;
+    margin-top: 110px;
 }
 .AXIT p {
     font-size: 80px;
@@ -42,10 +45,10 @@ header {
     padding: 0;
 }
 .AXIT h1 {
-    font-size: 30px;
-    color: #eeeded; 
+    font-size: 36px;
+    color: #fff;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 36px;
 }
 .AXIT div {
     margin-top: 20px;
@@ -59,6 +62,10 @@ header {
     font-size: 18px;
     padding: 10px 25px;
     border-radius: 3px;
+    width: 135px;
+    height: 42px;
+    color: #fff;
+    border-color: #fff;
 }
 .AXIT button:hover {
     color: black;
@@ -101,4 +108,21 @@ header {
     border: none;
     background-color: #e99b55;
     color: #fff;
+    margin-top: 49px;
+    font-size: 15px;
+}
+.feedback input {
+    font-size: 14px;
+}
+.feedback {
+    background-color: white;
+    margin-top: 140px;
+}
+.AXIT img {
+    height: 60px;
+    width: 175px;
+}
+.text{
+    margin-top: 30px;
+    font-size: 16px;
 }
