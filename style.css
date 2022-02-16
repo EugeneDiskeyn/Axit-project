@@ -39,13 +39,9 @@ header {
     width: 470px;
     margin-top: 110px;
 }
-.AXIT p {
-    font-size: 80px;
-    margin: 0px;
-    padding: 0;
-}
 .AXIT h1 {
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 30px;
     color: #fff;
     margin: 0;
     margin-bottom: 36px;
@@ -128,6 +124,36 @@ header {
     width: 175px;
 }
 .text{
-    margin-top: 30px;
     font-size: 16px;
+    margin: 0px;
+    padding: 0;
+    margin-top: 30px;
+    color: #fff;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 22px;
+    padding: 20px;
+    background-color: #fff;
+}
+.socialtext {
+    padding-left: 200px;
+}
+.social h2 {
+    padding: 0;
+    margin: 0;
+}
+.social p {
+    padding: 0;
+    margin: 0;
+    width: 360px;
+}
+.social img {
+    width: 50px;
+    height: 52px;
+}
+.last {
+    padding-right: 200px;
 }
