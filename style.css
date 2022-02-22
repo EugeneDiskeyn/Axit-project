@@ -32,6 +32,7 @@ header {
     justify-content: space-between;
     width: 1120px;
     margin: 0 auto;
+    padding-bottom: 139px;
 }
 .AXIT {
     display: flex;
@@ -44,7 +45,6 @@ header {
     font-size: 30px;
     color: #fff;
     margin: 0;
-    margin-bottom: 36px;
 }
 .AXIT div {
     margin-top: 20px;
@@ -127,8 +127,7 @@ header {
     font-size: 16px;
     margin: 0px;
     padding: 0;
-    margin-top: 30px;
-    color: #fff;
+    color: #d2caca;
 }
 .social {
     display: flex;
@@ -137,6 +136,7 @@ header {
     margin-top: 22px;
     padding: 20px;
     background-color: #fff;
+    border-bottom: 2px solid black;
 }
 .socialtext {
     padding-left: 200px;
@@ -156,4 +156,85 @@ header {
 }
 .last {
     padding-right: 200px;
+}
+.sublist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 107px 200px 100px 200px;
+}
+.orangeLine {
+    height: 3px;
+    width: 64px;
+    background-color:#ff8b38;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sublistText {
+    width: 50%;
+}
+.uploadAndText1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uploadAndText2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sublist p {
+    font-size: 14px;
+    margin: 0;
+}
+.sublist div img {
+    margin: 15px;
+}
+.sublist h2 {
+    font-size: 20px;
+    margin: 0;
+}
+.marg {
+    margin: 15px 0 15px 0;
+    color: #a5a5a6;
+}
+.sublist_p {
+    color: #a5a5a6;
+}
+.a5a5a6 {
+    color: #a5a5a6;
+}
+.whiteline {
+    width: 70px;
+    height: 2px;
+    background-color: #b1aeae;
+    margin: 30px 0 30px 0;
+}
+.grey_background {
+    background-color: #f5f5f5;
+}
+.picture_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1120px;
+    margin: auto;
+}
+.picture_section img {
+    width: 453px;
+    height: 303px;
+    margin: 110px 0 150px 0;
+}
+.picture_section_text {
+    width: 560px;
+}
+.picture_section h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.picture_section p {
+    font-size: 16px;
+    color: #a5a5a6;
 }
